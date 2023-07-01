@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&family=Open+Sans&family=Poppins:ital,wght@0,400;0,500;1,500&family=Work+Sans&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-size: 18px;
+  color: white;
+  background-color: #1f2833;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.active {
+  background-image: linear-gradient(45deg, #e167ff, #b60436);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+         
+.btn-grad {
+  background-image: linear-gradient(to left, #7b4397 0%, #d6197a  51%, #7b4397  100%);
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 50px;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}

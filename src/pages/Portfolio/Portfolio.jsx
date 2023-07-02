@@ -125,7 +125,7 @@ const Portfolio = () => {
             <Animate
                 play
                 duration={1}
-                start={{ transform: "translateX(-500px)" }}
+                start={{ transform: "translateX(-200px)" }}
                 end={{ transform: "translateX(0px)" }}
             >
                 <ul className="flex items-center gap-x-10 mx-auto mt-8 md:mt-6 text-white border border-dotted rounded-full border-green-300 w-56 px-4 py-2">

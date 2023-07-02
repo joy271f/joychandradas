@@ -25,7 +25,8 @@ const About = () => {
                     <Animate
                         play
                         duration={1}
-                        start={{ transform: "translateX(-900px)" }}
+                        delay={0.5}
+                        start={{ transform: "translateX(-800px)" }}
                         end={{ transform: "translateX(0px)" }}
                     >
                         <h1 className="text-xl md:text-2xl text-green-300 mb-2 md:mb-4 border-b border-green-500 w-60">Front End Developer</h1>

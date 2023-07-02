@@ -17,12 +17,12 @@ import LazyLoad from 'react-lazy-load';
 const portfolioData = [
     {
         id: 3,
-        name: 'Chef Hut',
-        image: MERNImageOne,
-        description: 'Recipe website with user auth and routing',
-        client: 'https://github.com/joychandradas/taco-town-client-side',
-        server: 'https://github.com/joychandradas/taco-town-server-side',
-        liveSite: 'https://chef-hat-a10.web.app'
+        name: 'Rhythmax',
+        image: MERNImageThree,
+        description: 'Course marketplace with dashboards',
+        client: 'https://github.com/joychandradas/rhythmax-client-side',
+        server: 'https://github.com/joychandradas/rhythmax-server-side',
+        liveSite: 'https://rhythmax-80178.web.app'
     },
     {
         id: 3,
@@ -35,12 +35,12 @@ const portfolioData = [
     },
     {
         id: 3,
-        name: 'Rhythmax',
-        image: MERNImageThree,
-        description: 'Course marketplace with dashboards',
-        client: 'https://github.com/joychandradas/rhythmax-client-side',
-        server: 'https://github.com/joychandradas/rhythmax-server-side',
-        liveSite: 'https://rhythmax-80178.web.app'
+        name: 'Chef Hut',
+        image: MERNImageOne,
+        description: 'Recipe website with user auth and routing',
+        client: 'https://github.com/joychandradas/taco-town-client-side',
+        server: 'https://github.com/joychandradas/taco-town-server-side',
+        liveSite: 'https://chef-hat-a10.web.app'
     },
     {
         id: 2,

@@ -1,14 +1,14 @@
 import PageHeader from "../../components/PageHeader/PageHeader";
 import { FaSignal } from "react-icons/fa";
-import MERNImageOne from "/portfolio_pic/MERN/s10.png"
-import MERNImageTwo from "/portfolio_pic/MERN/s11.png"
-import MERNImageThree from "/portfolio_pic/MERN/s12.png"
-import BasicImageOne from "/portfolio_pic/Basic/s1.png"
-import BasicImageTwo from "/portfolio_pic/Basic/s2.png"
-import BasicImageThree from "/portfolio_pic/Basic/s3.png"
-import BasicImageFour from "/portfolio_pic/Basic/s4.png"
-import BasicImageFive from "/portfolio_pic/Basic/s5.png"
-import BasicImageSix from "/portfolio_pic/Basic/s6.png"
+import MERNImageOne from "/portfolio_pic/MERN/s10.jpg"
+import MERNImageTwo from "/portfolio_pic/MERN/s11.jpg"
+import MERNImageThree from "/portfolio_pic/MERN/s12.jpg"
+import BasicImageOne from "/portfolio_pic/Basic/s1.jpg"
+import BasicImageTwo from "/portfolio_pic/Basic/s2.jpg"
+import BasicImageThree from "/portfolio_pic/Basic/s3.jpg"
+import BasicImageFour from "/portfolio_pic/Basic/s4.jpg"
+import BasicImageFive from "/portfolio_pic/Basic/s5.jpg"
+import BasicImageSix from "/portfolio_pic/Basic/s6.jpg"
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Animate } from "react-simple-animate";

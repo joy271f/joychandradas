@@ -12,6 +12,7 @@ import BasicImageSix from "/portfolio_pic/Basic/s6.png"
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Animate } from "react-simple-animate";
+import LazyLoad from 'react-lazy-load';
 
 const portfolioData = [
     {
@@ -127,7 +128,7 @@ const Portfolio = () => {
                 start={{ transform: "translateX(-500px)" }}
                 end={{ transform: "translateX(0px)" }}
             >
-                <ul className="flex items-center gap-x-10 mx-16 md:mx-24 mt-8 md:mt-6 text-white border border-dotted rounded-full border-green-300 w-56 px-4 py-2">
+                <ul className="flex items-center gap-x-10 mx-auto mt-8 md:mt-6 text-white border border-dotted rounded-full border-green-300 w-56 px-4 py-2">
                     {
                         categorysData.map((category) => (
                             <li onClick={() => handleFilteredValue(category.filterId)} className={category.filterId === filteredValue ? 'active cursor-not-allowed' : 'cursor-pointer'} key={category.filterId}>
@@ -144,13 +145,17 @@ const Portfolio = () => {
                 start={{ transform: "translateY(500px)" }}
                 end={{ transform: "translateX(0px)" }}
             >
-                <div className="grid md:grid-cols-3 md:gap-10 mt-8 p-8 md:p-4 md:mx-20">
+                <div className="grid md:grid-cols-3 gap-5 mt-8 p-4 mx-auto max-w-[1320px]">
                     {
                         filteredItem.length !== 0 ? <>
                             {
                                 filteredItem.map(item => (
-                                    <div key={item.name.trim()} className="card bg-slate-900 h-[50vh] mb-8 md:h-[70vh] shadow-2xl">
-                                        <figure><img src={item.image} alt={item.name} /></figure>
+                                    <div key={item.name.trim()} className="card bg-slate-900 mb-8 shadow-2xl">
+                                        <LazyLoad>
+                                            <div className="h-64 w-full">
+                                                <img className="h-full w-full object-cover" src={item.image} alt={item.name} />
+                                            </div>
+                                        </LazyLoad>
                                         <div className="card-body">
                                             <h2 className="card-title">{item.name}</h2>
                                             <p>{item.description}</p>

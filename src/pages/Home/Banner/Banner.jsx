@@ -17,7 +17,7 @@ const Banner = () => {
                 >
                     <div className='bg-slate-900 p-4 md:p-8 rounded-2xl'>
                         <h1 className="font-extrabold md:text-5xl text-green-300">Hello, I'm Joy</h1>
-                        <h1 className='text-green-300' style={{ paddingTop: '1rem', margin: 'auto 0', fontWeight: 'normal' }}>
+                        <h1 className='text-green-300 text-xs md:text-2xl mt-2 md:mt-4'>
                             Front-end Developer {' '}
                             <span className="font-extrabold text-transparent text-[0.74rem] md:text-2xl  bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                                 {/* Style will be inherited from the parent element */}

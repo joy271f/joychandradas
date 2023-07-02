@@ -20,7 +20,7 @@ const NavBar = () => {
                             {navLink}
                         </ul>
                     </div>
-                    <Link to="/" className="font-extrabold text-transparent text-[0.74rem] md:text-xl  bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 uppercase">Joy Chandra Das</Link>
+                    <Link to="/" className="font-extrabold text-transparent text-[.64rem] md:text-xl  bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 uppercase">Joy Chandra Das</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="flex gap-6 px-1">
@@ -28,7 +28,7 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link to='/contact' className="btn btn-grad font-extralight btn-xs lg:btn-sm px-4 lg:px-6">Get in Touch</Link>
+                    <Link to='/contact' className="btn btn-grad font-extralight btn-xs mr-2 md:mr-0 lg:btn-sm md:px-6">Get in Touch</Link>
                 </div>
             </div>
         </div>

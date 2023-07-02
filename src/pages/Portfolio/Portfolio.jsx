@@ -160,11 +160,11 @@ const Portfolio = () => {
                                             <h2 className="card-title">{item.name}</h2>
                                             <p>{item.description}</p>
                                             <div className="flex justify-between mt-2 items-center gap-6">
-                                                <Link to={item.client} className="font-thin text-[#8103e1]">#Client</Link>
+                                                <Link to={item.client} target="_blank" className="font-thin text-[#8103e1]">#Client</Link>
                                                 {
-                                                    portfolioData.server !== item.server ? <Link to={item.server} className="font-thin text-[#C62A88]">#Server</Link> : ''
+                                                    portfolioData.server !== item.server ? <Link to={item.server} target="_blank" className="font-thin text-[#C62A88]">#Server</Link> : ''
                                                 }
-                                                <Link to={item.liveSite} className="font-thin text-[#03C4A1]">Live Preview</Link>
+                                                <Link to={item.liveSite} target="_blank" className="font-thin text-[#03C4A1]">Live Preview</Link>
                                             </div>
                                         </div>
                                     </div>

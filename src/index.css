@@ -11,10 +11,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  overflow: hidden;
-}
-
 .active {
   background-image: linear-gradient(45deg, #e167ff, #b60436);
   -webkit-background-clip: text;

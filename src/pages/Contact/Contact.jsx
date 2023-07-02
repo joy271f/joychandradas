@@ -19,7 +19,7 @@ const Contact = () => {
             });
     };
     return (
-        <div>
+        <div className="overflow-hidden">
             <PageHeader
                 headerText="Contact me"
                 icon={<FaHandsHelping size={40} />}

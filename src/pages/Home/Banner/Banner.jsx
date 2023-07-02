@@ -7,7 +7,7 @@ import { Animate } from "react-simple-animate";
 
 const Banner = () => {
     return (
-        <div className="grid md:grid-cols-2 items-center">
+        <div className="grid md:grid-cols-2 items-center overflow-hidden">
             <div className="mx-8 mt-8 md:mt-12 md:mx-24 md:text-2xl">
                 <Animate
                     play

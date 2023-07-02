@@ -1,10 +1,12 @@
 import PageHeader from "../../components/PageHeader/PageHeader";
 import { FaInfoCircle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import { Animate } from "react-simple-animate";
+import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const About = () => {
     return (
-        <div>
+        <div className="overflow-hidden">
             <PageHeader
                 headerText="About me"
                 icon={<FaInfoCircle size={40} />}
@@ -47,6 +49,11 @@ const About = () => {
                             <li>Email: joychandradas007@gmail.com</li>
                             <li>Address: Mirpur, Dhaka, Bangladesh.</li>
                         </ul>
+                        <div className="flex justify-start items-center my-4 gap-5 text-green-300">
+                            <Link to="https://www.facebook.com/joychandradas007" target="_blank"><FaFacebook></FaFacebook></Link>
+                            <Link to="https://www.linkedin.com/in/joychandradas" target="_blank"><FaLinkedin></FaLinkedin></Link>
+                            <Link to="https://github.com/joychandradas" target="_blank"><FaGithub></FaGithub></Link>
+                        </div>
                     </Animate>
                 </div>
             </div>

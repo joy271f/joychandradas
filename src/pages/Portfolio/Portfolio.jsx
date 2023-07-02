@@ -20,8 +20,8 @@ const portfolioData = [
         name: 'Chef Hut',
         image: MERNImageOne,
         description: 'Recipe website with user auth and routing',
-        client: 'https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-client-side-joychandradas',
-        server: 'https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-server-side-joychandradas',
+        client: 'https://github.com/joychandradas/taco-town-client-side',
+        server: 'https://github.com/joychandradas/taco-town-server-side',
         liveSite: 'https://chef-hat-a10.web.app'
     },
     {
@@ -29,8 +29,8 @@ const portfolioData = [
         name: 'Puzzle Playground',
         image: MERNImageTwo,
         description: 'Toy marketplace with user auth and CRUD',
-        client: 'https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-client-side-joychandradas',
-        server: 'https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-server-side-joychandradas',
+        client: 'https://github.com/joychandradas/puzzle-playground-client',
+        server: 'https://github.com/joychandradas/puzzle-playground-server',
         liveSite: 'https://puzzle-playground.web.app'
     },
     {
@@ -38,8 +38,8 @@ const portfolioData = [
         name: 'Rhythmax',
         image: MERNImageThree,
         description: 'Course marketplace with dashboards',
-        client: 'https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-joychandradas',
-        server: 'https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-joychandradas',
+        client: 'https://github.com/joychandradas/rhythmax-client-side',
+        server: 'https://github.com/joychandradas/rhythmax-server-side',
         liveSite: 'https://rhythmax-80178.web.app'
     },
     {
@@ -63,7 +63,7 @@ const portfolioData = [
         name: 'Legal Solution',
         image: BasicImageThree,
         description: 'CSS Frameworks Using Bootstrap',
-        client: 'https://github.com/Programming-Hero-Web-Course4/b7-legal-house-joychandradas',
+        client: 'https://github.com/joychandradas/legal-solution',
         liveSite: 'https://legal-solution1.netlify.app'
     },
     {
@@ -71,7 +71,7 @@ const portfolioData = [
         name: 'Geometry Genius',
         image: BasicImageFour,
         description: 'Integrate Vanilla JavaScript',
-        client: 'https://github.com/programming-hero-web-course2/b7a5-geometry-genius-assignment-joychandradas',
+        client: 'https://github.com/joychandradas/geometry-genius',
         liveSite: 'https://gorgeous-begonia-3b0cee.netlify.app'
     },
     {
@@ -79,7 +79,7 @@ const portfolioData = [
         name: 'AI Universe Hub',
         image: BasicImageFive,
         description: 'Using JavaScript and API',
-        client: 'https://github.com/programming-hero-web-course2/b7a6-ai-universe-assignment-joychandradas',
+        client: 'https://github.com/joychandradas/AI-universe-hub',
         liveSite: 'https://ai-universe-hub-411c57.netlify.app'
     },
     {
@@ -87,7 +87,7 @@ const portfolioData = [
         name: 'Network-Hub',
         image: BasicImageSix,
         description: 'Using Basic React and React Router',
-        client: 'https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-joychandradas',
+        client: 'https://github.com/joychandradas/b7a9-career-hub-joychandradas',
         liveSite: 'https://venerable-croissant-69a151.netlify.app'
     },
 ]

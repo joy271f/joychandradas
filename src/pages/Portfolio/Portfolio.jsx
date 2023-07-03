@@ -145,7 +145,7 @@ const Portfolio = () => {
                 start={{ transform: "translateY(500px)" }}
                 end={{ transform: "translateX(0px)" }}
             >
-                <div className="grid md:grid-cols-3 gap-5 mt-8 p-4 mx-auto max-w-[1320px]">
+                <div className="grid md:grid-cols-3 md:gap-8 mt-8 p-2 mx-auto max-w-[1320px]">
                     {
                         filteredItem.length !== 0 ? <>
                             {
@@ -153,18 +153,18 @@ const Portfolio = () => {
                                     <div key={item.name.trim()} className="card bg-slate-900 mb-8 shadow-2xl">
                                         <LazyLoad>
                                             <div className="h-64 w-full">
-                                                <img className="h-full w-full object-cover" src={item.image} alt={item.name} />
+                                                <img className="h-full w-full object-cover rounded" src={item.image} alt={item.name} />
                                             </div>
                                         </LazyLoad>
                                         <div className="card-body">
                                             <h2 className="card-title">{item.name}</h2>
                                             <p>{item.description}</p>
-                                            <div className="flex justify-between mt-2 items-center gap-6">
-                                                <Link to={item.client} target="_blank" className="font-thin text-[#8103e1] truncate">#Client</Link>
+                                            <div className="flex justify-between mt-2 items-center gap-2 md:gap-6">
+                                                <Link to={item.client} target="_blank" className="font-thin text-[#8103e1]">#Client</Link>
                                                 {
-                                                    portfolioData.server !== item.server ? <Link to={item.server} target="_blank" className="font-thin text-[#C62A88] truncate">#Server</Link> : ''
+                                                    portfolioData.server !== item.server ? <Link to={item.server} target="_blank" className="font-thin text-[#C62A88] ">#Server</Link> : ''
                                                 }
-                                                <Link to={item.liveSite} target="_blank" className="font-thin text-[#03C4A1] truncate">Live Preview</Link>
+                                                <Link to={item.liveSite} target="_blank" className="font-thin text-[#03C4A1] whitespace-nowrap text-overflow-ellipsis">Live Preview</Link>
                                             </div>
                                         </div>
                                     </div>

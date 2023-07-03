@@ -10,8 +10,8 @@ const NavBar = () => {
 
     return (
         <div>
-            <div className="navbar bg-slate-900 md:px-24">
-                <div className="navbar-start">
+            <div className="navbar bg-slate-900">
+                <div className="navbar-start md:px-20">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -27,8 +27,8 @@ const NavBar = () => {
                         {navLink}
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <Link to='/contact' className="btn btn-grad font-extralight btn-xs mr-2 md:mr-0 lg:btn-sm md:px-6">Get in Touch</Link>
+                <div className="navbar-end md:px-16">
+                    <Link to='/contact' className="btn btn-grad font-extralight btn-xs mr-4 md:mr-0 lg:btn-sm md:px-10">Get in Touch</Link>
                 </div>
             </div>
         </div>

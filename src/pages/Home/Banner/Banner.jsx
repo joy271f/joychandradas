@@ -16,7 +16,7 @@ const Banner = () => {
                     start={{ transform: "translateX(-900px)" }}
                     end={{ transform: "translateX(0px)" }}
                 >
-                    <div className='bg-slate-900 p-4 md:p-6 rounded-2xl'>
+                    <div className='bg-slate-900 p-4 md:p-7 rounded-2xl'>
                         <h1 className="font-extrabold md:text-5xl text-green-300">Hello, I'm Joy</h1>
                         <h1 className='text-green-300 text-xs md:text-2xl mt-2 md:mt-4'>
                             Front-end Developer {' '}

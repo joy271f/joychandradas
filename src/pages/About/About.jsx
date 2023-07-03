@@ -31,7 +31,7 @@ const About = () => {
                         start={{ transform: "translateX(-800px)" }}
                         end={{ transform: "translateX(0px)" }}
                     >
-                        <h1 className="text-xl md:text-2xl text-green-300 mb-2 md:mb-4 border-b border-green-500 w-60">Front End Developer</h1>
+                        <h1 className="text-xl md:text-2xl text-green-300 mb-2 pb-2 border-b-2 border-dotted border-green-500">Front End Developer</h1>
                         <p className="text-justify leading-relaxed">Highly motivated and dedicated Frontend Developer with a strong focus on the React framework. With adeep understanding of React's component-based architecture and virtual DOM, I have successfully developed and delivered dynamic and responsive web applications.
                         </p>
                     </Animate>
@@ -42,14 +42,14 @@ const About = () => {
                         start={{ transform: "translateY(500px)" }}
                         end={{ transform: "translateX(0px)" }}
                     >
-                        <h1 className="mt-8 border-b-2 border-dotted border-green-300 md:pb-2">Personal Information</h1>
+                        <h1 className="mt-8 border-b-2 border-dotted border-green-300 pb-2">Personal Information</h1>
                         <ul className="mt-2 leading-loose">
                             <li>Name: Joy Chandra Das</li>
                             <li>Phone: +880 1610950440</li>
                             <li>Email: joychandradas007@gmail.com</li>
                             <li>Address: Mirpur, Dhaka, Bangladesh.</li>
                         </ul>
-                        <div className="flex justify-start items-center my-4 gap-5 text-green-300">
+                        <div className="flex justify-start items-center my-4 gap-5 text-xl text-green-300">
                             <Link to="https://www.facebook.com/joychandradas007" target="_blank"><FaFacebook></FaFacebook></Link>
                             <Link to="https://www.linkedin.com/in/joychandradas" target="_blank"><FaLinkedin></FaLinkedin></Link>
                             <Link to="https://github.com/joychandradas" target="_blank"><FaGithub></FaGithub></Link>

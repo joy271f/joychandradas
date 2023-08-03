@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import PageHeader from "../../components/PageHeader/PageHeader";
-import { FaHandsHelping } from "react-icons/fa";
 import { Animate } from "react-simple-animate";
 import 'react-toastify/dist/ReactToastify.css';
 import { toast } from "react-toastify";
@@ -38,7 +37,7 @@ const Contact = () => {
                         start={{ transform: "translateX(200px)" }}
                         end={{ transform: "translateX(0px)" }}
                     >
-                        <h1 className="text-xl md:text-2xl text-green-300 mb-4 md:mb-4 mt-8 mx-12 md:mx-24">Let's Talk</h1>
+                        <h1 className="text-xl md:text-2xl text-green-300 mb-4 md:mb-4 mt-8 mx-4 md:mx-24">Let's Talk</h1>
                     </Animate>
 
                     <Animate
@@ -47,7 +46,7 @@ const Contact = () => {
                         start={{ transform: "translateY(200px)" }}
                         end={{ transform: "translateX(0px)" }}
                     >
-                        <div className="mx-auto p-12 pt-2 md:pl-24">
+                        <div className="mx-auto p-4 pt-2 md:pl-24">
                             <form ref={form} onSubmit={sendEmail}>
                                 <div className="mb-4">
                                     <label className="block mb-2">Name</label>
@@ -73,7 +72,7 @@ const Contact = () => {
                         start={{ transform: "translateX(500px)" }}
                         end={{ transform: "translateX(0px)" }}
                     >
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4588.340597487356!2d90.37289500116013!3d23.79925484516149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1f3bba97017%3A0xc0a72d917e86f6ce!2sKazipara%20Metro%20Station!5e0!3m2!1sen!2sbd!4v1688364199647!5m2!1sen!2sbd" className="mx-auto border-0 w-3/4 h-[250px] md:w-3/4 md:h-[450px]" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4588.340597487356!2d90.37289500116013!3d23.79925484516149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1f3bba97017%3A0xc0a72d917e86f6ce!2sKazipara%20Metro%20Station!5e0!3m2!1sen!2sbd!4v1688364199647!5m2!1sen!2sbd" className="mx-auto border-0 w-full p-4 h-[250px] md:w-3/4 md:h-[450px]" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </Animate>
                 </div>
             </div>

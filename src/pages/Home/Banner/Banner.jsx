@@ -34,7 +34,7 @@ const Banner = () => {
                                 />
                             </span>
                         </h1>
-                        <a href="/JoyChandraDas_Resume.pdf" download className="btn btn-grad btn-xs md:btn-md mt-4 mb-2 md:mt-8"><FaCloudDownloadAlt /> Download Resume</a>
+                        <a href="/JoyChandraDas_FrontendDeveloper.pdf" download className="btn btn-grad btn-xs md:btn-md mt-4 mb-2 md:mt-8"><FaCloudDownloadAlt /> Download Resume</a>
                     </div>
                 </Animate>
                 <Animate
